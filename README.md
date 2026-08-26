@@ -1,34 +1,40 @@
-<!--
-PLANTILLA DE README — Semana 2 · UdeC-EAN
-Copia el texto de abajo (desde la línea con "#") a un archivo README.md en tu
-proyecto y reemplaza el contenido entre [corchetes] por lo tuyo.
-Borra estas instrucciones (todo lo que está entre <!-- y -->).
--->
+Proyecto importaciones de videoconsolas en Chile
 
-# [Título del proyecto]
-
-[Una línea que explique qué hace el proyecto. Ej: "Calcula el ingreso real
-promedio por región a partir de la CASEN 2022."]
+Se espera calcular la participacion de mayor mes de importaciones de videoconsolas en
+Chile durante el año 2025
 
 ## Datos
 
-[Fuente y fecha de los datos. Ej: "CASEN 2022 (Ministerio de Desarrollo Social
-y Familia). Archivo en `data/raw/casen_reducido.csv`."]
+Datos obtenidos de: Servicio nacional de aduanas en Chile
+Codigo arancelario: 95045000
+Monto en dolares, mensual de enero a diciembre de 2025
+Archivo: data/raw
+
+Archivo original en `data/raw/impo_sa_monto_0112_2025.xlsx` y la
+serie extraída en `data/raw/importaciones_consolas_chile_2025.csv`.
+(Ninguno de los dos fue modificado a mano)
+
 
 ## Cómo correrlo
 
-[Qué abrir y ejecutar primero. Ej: "Abrir `proyecto.Rproj` y ejecutar
-`scripts/01_analisis.R`."]
+Abrir `tarea1-fundamentos.Rproj` y ejecutar
+`scripts/01_primeros_pasos.R`.
 
 ## Estructura
 
 ```
-proyecto/
+tarea1-fundamentos
 ├── data/raw/      # datos crudos (no se modifican)
 ├── scripts/       # código R
-└── README.md      # este archivo
+└── README.md      # este archivo 
 ```
+## Resultados
+
+Julio concentró el 17,3% de las importaciones del año.
+Esto no refleja la cantidad de ventas solo importaciones importante aclarar.
+
+
 
 ## Autor
 
-[Tu nombre] — [mes y año]
+Sebastián Navarrete Poblete — 08/2026
